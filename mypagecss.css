@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+    outline: none;
+}
+
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext {
+    font: inherit;
+    font-size: 1em;
+    white-space: normal;
+}
+
+dfn, i, cite, var, address, em {
+    font-style: normal;
+}
+
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, td, center {
+    text-align: left;
+    vertical-align: top;
+}
+
+body {
+    line-height: 1;
+    background: white;
+    color: black;
+}
+
+q {
+    quotes: "" "";
+}
+
+ul, ol, dir, menu {
+    list-style: none;
+}
+
+sub, sup {
+    vertical-align: baseline;
+}
+
+a {
+    color: inherit;
+}
+
+hr {
+    display: none;
+} /* we don't need a visual hr in layout */
+
+font {
+    color: inherit !important;
+    font: inherit !important;
+    color: inherit !important;
+} /* disables some nasty font attributes in standard browsers */
+
+marquee {
+    overflow: inherit !important;
+    -moz-binding: none;
+}
+
+blink {
+    text-decoration: none;
+}
+
+nobr {
+    white-space: normal;
+}
+
+* {
+     font-family: 'Nunito', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+}
+
+ .container {
+     display: grid;
+     grid-template-columns: 15% 85%;
+     grid-template-rows: 150px 600px 100px;
+ }
+
+ header {
+     font-family: 'Rampart One', cursive;
+     grid-column: span 2;
+     background-color: #C1DAD6;
+     padding: 40px;
+     font-size: 40px;
+     text-align: center;
+ }
+
+ aside {
+     background-color: #B7AFA3;
+     align-items: center;
+     padding: 20px;
+ }
+
+ main {
+     padding: 20px;
+     background-color: #F5FAFA;
+ }
+
+ footer {
+     text-align: right;
+     padding: 20px;
+     grid-column: span 2;
+     background-color: #6D929B;
+ }
+
+ .profile {
+     border: 3px solid gray;
+     border-radius: 50px;
+     width: 140px;
+     box-shadow: 3px 3px 10px #ccc;
+ }
+
+ iframe {
+     width: 800px;
+ }
+ p {
+     padding: 10px;
+ }
+
+ table,th,td {
+     padding: 5px;
+     border: 1px solid gray;
+     border-collapse: collapse;
+ }
+
+ .working {
+     width: 100px;
+ }
+
+ span {
+     padding: 10px;
+ }
