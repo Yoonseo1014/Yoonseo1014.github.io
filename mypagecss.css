@@ -240,10 +240,10 @@ svg {
         width: 40%;
     }
     .con {
-        width: 15px;
+        width: 10px;
     }
     .footer {
-        font-size: 10px;
+        font-size: 20px;
     }
     aside {
         grid-column: span 2;
@@ -260,6 +260,9 @@ svg {
     .item {
         font-size: 0.9em;
     }
+    .con {
+        width: 10px;
+    }
     .container {
         grid-template-columns: 15% 85%;
         grid-template-rows: 150px 750px 110px;
@@ -272,6 +275,9 @@ svg {
     }
 }
 @media only screen and (min-width: 1050px) {
+    .con {
+        width: 10px;
+    }
     li {
         margin-top: 40px;
         margin-bottom: 40px;
