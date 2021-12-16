@@ -265,13 +265,13 @@ svg {
     }
     .container {
         grid-template-columns: 15% 85%;
-        grid-template-rows: 150px 750px 110px;
+        grid-template-rows: 150px 950px 110px;
     }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1800px) {
     .container {
         grid-template-columns: 15% 85%;
-        grid-template-rows: 150px 750px 110px;
+        grid-template-rows: 150px 950px 110px;
     }
 }
 @media only screen and (min-width: 1050px) {
@@ -285,7 +285,7 @@ svg {
     }
     .container {
         grid-template-columns: 15% 85%;
-        grid-template-rows: 150px 750px 110px;
+        grid-template-rows: 150px 950px 110px;
     }
 }
 
